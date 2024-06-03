@@ -1,0 +1,20 @@
+.save {
+   height: 42px;
+   padding: 0px 20px;
+   border: none;
+   border-radius: 5px;
+   color: white;
+   background-color: #2c73d2;
+   cursor: pointer;
+   transition: 0.1s;
+}
+
+.save:hover {
+   background-color: #4d8ee4;
+}
+
+.save:active{
+   transform: translateY(-3px);
+   background-color: #6ba5f0;
+}
+

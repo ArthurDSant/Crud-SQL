@@ -1,0 +1,8 @@
+.input_area {
+   display: flex;
+   flex-direction: column;
+}
+
+span {
+   font-weight: 600;
+}

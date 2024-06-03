@@ -1,0 +1,10 @@
+.options {
+   font-size: 18px;
+   padding: 3px;
+   cursor: pointer;
+   transition: 0.2s;
+}
+
+.options:hover {
+   transform: scale(1.3);
+}
