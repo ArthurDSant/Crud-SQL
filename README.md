@@ -49,9 +49,9 @@ Avoid placing 'localhost' on ports that are frequently used for functions other 
 ```bash
 CREATE TABLE `crud`.`users` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(245) NOT NULL,
-  `email` VARCHAR(245) NOT NULL,
-  `tel` VARCHAR(245) NOT NULL,
+  `name` VARCHAR(255) NOT NULL,
+  `email` VARCHAR(255) NOT NULL,
+  `tel` VARCHAR(255) NOT NULL,
   `birthday` DATE NOT NULL,
   PRIMARY KEY (`id`));
 ```
