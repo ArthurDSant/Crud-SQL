@@ -1,9 +1,9 @@
 import axios from "axios";
 import React, { useEffect, useRef } from "react";
+import { toast } from "react-toastify";
+import styled from "styled-components";
 import Button from '../Button'
 import './styles.css';
-import styled from "styled-components";
-import { toast } from "react-toastify";
 
 const FormContainer = styled.form`
   display: flex;
@@ -15,7 +15,6 @@ const FormContainer = styled.form`
   box-shadow: 0px 0px 15px #ccc;
   border-radius: 10px;
 `;
-
 const Input = styled.input`
   width: 120px;
   height: 40px;
@@ -52,7 +51,6 @@ const Index = ({ getUsers, onEdit, setOnEdit }) => {
     ) {
       return toast.warn("Fill in all the fields!");
     }
-
     if (onEdit) {
       await axios
         .put("http://localhost:3000/" + onEdit.id, {
@@ -74,7 +72,6 @@ const Index = ({ getUsers, onEdit, setOnEdit }) => {
         .then(({ data }) => toast.success(data))
         .catch(({ data }) => toast.error(data));
     }
-
     user.name.value = "";
     user.email.value = "";
     user.tel.value = "";
@@ -102,7 +99,6 @@ const Index = ({ getUsers, onEdit, setOnEdit }) => {
         <span>Birthday</span>
         <Input name="birthday" type="date" />
       </div>
-
       <Button />
     </FormContainer>
   );

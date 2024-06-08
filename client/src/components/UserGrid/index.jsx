@@ -1,9 +1,9 @@
 import React from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
-
-import './styles.css';
 import styled from "styled-components";
+import './styles.css';
+
 import { HiOutlineX } from "react-icons/hi"; 
 import { HiOutlineDotsHorizontal } from "react-icons/hi"; 
 

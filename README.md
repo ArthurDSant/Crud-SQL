@@ -1,14 +1,12 @@
-# API Crud 
+# Crud API
 Crud API for user registration with a simple and objective design, storing customer data making it possible to add, remove and edit users in the database. Full Stack project based on several technologies for its construction such as React, Vite.Js, Javascript, Styled-Components, Node.Js Nodemon, Express and MySQL.
 
 
-
 ## Stacks
-#### Front End:
+#### Front End
 ![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
-#### Back End:
+#### Back End
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-
 
 
 ## Learnings
@@ -16,7 +14,6 @@ In this project I had the opportunity to put into practice my introductory knowl
 how to structure the codes to build the database, etc. I admit that for me the most complex part was managing the HTTP requests to change the application and the database to be able to edit and delete users, for some reason I was blocked from developing this part.
 Regarding the Front End, this was my first project using 'Styled-Components', which made it confusing at first to organize the files and do componentization in the way I was used to, for example. My first contact with ‘React-
 Toastify’ was also part of this project and I was impressed with the aesthetics and usability of this tool, simple and extremely functional.
-
 
 
 ## Installation
@@ -63,7 +60,6 @@ VALUES ('1', 'Arthur', 'arthur@email.com', '+55 555555555', '2002-08-25');
 ```bash
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '********';
 ```
-
 
 
 ## Screenshot
