@@ -3,18 +3,31 @@ Crud API for user registration with a simple and objective design, storing custo
 
 
 ## Stacks
-#### Front End
+### Front End
 ![React](https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
-#### Back End
+### Back End
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 
-## Learnings
-In this project I had the opportunity to put into practice my introductory knowledge about SQL that I obtained in college, in a useful and functional application. I learned in practice fundamental things like which localhost port to use to structure an API, how to make HTTP requests to the database and update it,
-how to structure the codes to build the database, etc. I admit that for me the most complex part was managing the HTTP requests to change the application and the database to be able to edit and delete users, for some reason I was blocked from developing this part.
-Regarding the Front End, this was my first project using 'Styled-Components', which made it confusing at first to organize the files and do componentization in the way I was used to, for example. My first contact with ‘React-
-Toastify’ was also part of this project and I was impressed with the aesthetics and usability of this tool, simple and extremely functional.
+## Features
+- Front End structured in React with Vite.Js Framework
+- Styling done with Styled-Components and CSS 
+- React-Toastify for notifications of changes made to the Database
+- Axios for HTTP requests such as GET, POST, PUT, DELETE
+- RESTful APIs through Express.Js and Node.Js
+- MySQL as a relational database where data is stored
+- Addition, removal and editing of saved users
 
+
+## Learnings
+![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) Styled-Components is a library for React and React Native that allows you to write CSS styles directly inside JavaScript components. Using tagged template literals, it combines style and component logic in one place, allowing for more cohesive and modular development. Usanod Styled-Components, styles are applied dynamically and scoped to the component, avoiding global CSS conflicts and making code maintenance and readability much easier.
+
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) I was able to learn about creating and maintaining databases where data is structured in tables with rows and columns, facilitating the execution of CRUD (Create, Read, Update, Delete) operations. Its versatility is incredible, allowing the creation of e-commerce and content management systems. I had a somewhat reasonable first look at its support for transactions, high availability, replication and security, which makes MySQL such a popular choice.
+
+[NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) Based on the fact that Node.Js is a JavaScript execution environment, it is predictable that the first contact would be more friendly, taking into account my experience with JavaScript, but the possibilities it offers as an execution environment in a virtual machine were quite surprising. I learned that Node.Js runs outside the browser, which makes it a great option for developing real-time web applications, such as web servers, RESTful APIs, and streaming applications. Its I/O model (non-blocking and event-driven) facilitates the management of asynchronous operations and greatly improves the efficiency and scalability of the application,
+In this project I wasn't able to experiment in depth with this part of its features, but knowing that they exist makes me more confident in studying more about them.
+
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) Being a minimalist and flexible Framework for Node.Js, it helps in simplifying the development of web applications and APIs. Despite being considered simple, I believe that this Framework is very complete for what it proposes, as it facilitates the creation of HTTP servers and the management of routes, in addition to allowing the use of middleware to add features such as authentication, JSON parsing and error handling.
 
 ## Installation
 #### cd client
@@ -42,7 +55,6 @@ Toastify’ was also part of this project and I was impressed with the aesthetic
 ```
 #### Data Base
 Avoid placing 'localhost' on ports that are frequently used for functions other than API (:3306 or :8800), as your application may present an error because of this.
-
 ```bash
 CREATE TABLE `crud`.`users` (
   `id` INT NOT NULL AUTO_INCREMENT,
@@ -62,7 +74,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '********
 ```
 
 
-## Screenshot
+## Screenshots
 ![Crud 1](https://github.com/ArthurSantDev/Crud/assets/159972613/a03fb9d7-1fd4-4ccf-bc96-01678899f388)
 
 ![Crud 2](https://github.com/ArthurSantDev/Crud/assets/159972613/fde0370f-bd35-4c31-b7a1-330a9d00cf67)
