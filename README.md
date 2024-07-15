@@ -1,4 +1,5 @@
 # Crud API
+![Crud Pc 1](https://github.com/user-attachments/assets/139db758-63c9-4e89-991a-0ca98562339e)
 Crud API for user registration with a simple and objective design, storing customer data making it possible to add, remove and edit users in the database. Full Stack project based on several technologies for its construction such as React, Vite.Js, Javascript, Styled-Components, Node.Js Nodemon, Express and MySQL.
 
 
