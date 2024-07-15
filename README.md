@@ -73,10 +73,19 @@ VALUES ('1', 'Arthur', 'arthur@email.com', '+55 555555555', '2002-08-25');
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '********';
 ```
 
+## Start Project
+```bash
+  cd client
+  npm run dev
+
+  cd server
+  npm start
+```
+
 
 ## Screenshots
-![Crud 1](https://github.com/ArthurSantDev/Crud/assets/159972613/a03fb9d7-1fd4-4ccf-bc96-01678899f388)
+![Crud Pc 1](https://github.com/user-attachments/assets/139db758-63c9-4e89-991a-0ca98562339e)
 
-![Crud 2](https://github.com/ArthurSantDev/Crud/assets/159972613/fde0370f-bd35-4c31-b7a1-330a9d00cf67)
+![Crud Pc 2](https://github.com/user-attachments/assets/2c290a70-1195-4e5f-a54c-605ffd2a027b)
 
-![Crud 3](https://github.com/ArthurSantDev/Crud/assets/159972613/cd689550-ee04-44be-904a-b6413b01bb52)
+![Crud Pc 3](https://github.com/user-attachments/assets/e7aace9a-f221-4997-a6d7-d7f7e5909877)
